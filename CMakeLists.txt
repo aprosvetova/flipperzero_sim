@@ -20,10 +20,10 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2)
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
 
-add_executable(snake snake.c flipper.c flipper.h)
+add_executable(snake src/snake.c src/flipper.c src/flipper.h)
 target_link_libraries(snake PRIVATE SDL2::Main SDL2::Image)
 
-add_executable(tetris tetris.c flipper.c flipper.h tetris_pieces.h img/micro4x6.xbm)
+add_executable(tetris src/tetris.c src/flipper.c src/flipper.h src/tetris_pieces.h img/micro4x6.xbm)
 target_link_libraries(tetris PRIVATE SDL2::Main SDL2::Image)
 
 file(COPY img DESTINATION .)

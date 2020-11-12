@@ -1,7 +1,7 @@
 // https://tetris.fandom.com/wiki/Tetris_Guideline
 
 #include "flipper.h"
-#include "img/micro4x6.xbm"
+#include "../img/micro4x6.xbm"
 #include <string.h>
 
 #define GRID_X 7
