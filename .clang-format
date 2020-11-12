@@ -1,0 +1,12 @@
+Language:      Cpp
+BasedOnStyle:  Google
+IndentWidth:   4
+TabWidth:      4
+UseTab:        Never
+ColumnLimit:   100
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+Cpp11BracedListStyle: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
