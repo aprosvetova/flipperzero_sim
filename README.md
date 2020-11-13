@@ -48,4 +48,16 @@ Or, generate Ninja project with CMake:
 mkdir build
 cd build
 cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake ..
-```    
+```
+
+## macOS
+
+Make sure you have [homebrew](https://brew.sh) installed.
+
+```
+brew install cmake sdl2 sdl2_image
+mkdir build
+cd build
+cmake ..
+make
+```
